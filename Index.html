@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <h3 class="logo">Preethi S</h3>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificate">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="hero"  data-aos="fade-up">
+                <div class="hero-image">
+                    <img src="Images/profile.jpg" alt="Preethi">
+                </div>
+                <div class="hero-content">
+                    <h1>Preethi S </h1>
+                    <h2>Aspiring AI engineer | Web Developer</h2>
+                    <p>
+                        I build AI-powered applications and modern responsive websites.
+                        Passionate about Artificial Intelligence, Web Development, and solving real-world problems through technology.
+                    </p>
+                    <div class="hero-button">
+                        <button  class="btn-primary">View Projects</button> 
+                        <button  class="btn-secondary">Contact Me</button>
+                    </div>
+                </div> 
+            </section>
+            <section id="about" class="about" data-aos="fade-up">
+                <div class="about-container">
+                    <div class="about-text">
+                        <h2 class="section-title"><i class="fa-regular fa-user"></i>
+                            About Me
+                        </h2>
+                        <p>
+                            I'm an Electronics and Communication Engineering student with a strong interest in Artificial Intelligence and Web Development.
+                            My journey began with embedded systems and electronics, but over time I discovered my passion for building intelligent software solutions using AI technologies.
+                            I enjoy developing AI-powered applications, responsive websites, and continuously learning modern technologies to solve real-world problems.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects" data-aos="fade-up">
+                <h2 class="section-title"><i class="fa-solid fa-code"></i>
+                    My Projects
+                </h2>
+                <p class="project-subtitle">
+                    Artificial Intelligence • Web Development • Embedded Systems
+                </p>
+                <div class="project-container">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-content">
+                            <p class="project-category">Artificial Intelligence</p>
+                            <h3>AI-Driven Realtime Environmental Disaster Detection</h3>
+                            <p>
+                                Built an AI-powered disaster detection system using separate YOLOv8 models for satellite and drone imagery. The application automatically identifies disaster types and displays predictions, confidence scores, and locations through a Streamlit dashboard.
+                            </p>
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>YOLOv8</span>
+                                <span>Streamlit</span>
+                                <span>OpenCV</span>
+                                <span>Google Colab</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://github.com/Preethisundar13/Realtime_Disaster_Monitoring_system" target="_blank" class="project-btn github-btn">
+                                    GitHub
+                                </a>
+                                <a href="#" class="project-btn demo-btn">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="project-card" data-aos="fade-up">
+                        <div class="project-content">
+                            <p class="project-category">Web Development</p>
+                            <h3>VP Wanderwings: A travel ticket booking UI</h3>
+                            <p>
+                                Developed a responsive travel website with a modern user interface to showcase destinations, tour packages, and travel services. Built using HTML, CSS, and JavaScript with a focus on clean design, intuitive navigation, and mobile-friendly responsiveness.
+                            </p>
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Javascript</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="project-btn github-btn">
+                                    GitHub</a>
+                                <a href="#" class="project-btn demo-btn">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="project-card" data-aos="fade-up">
+                        <div class="project-content">
+                            <p class="project-category">Embedded Systems</p>
+                            <h3>Realtime Streetlighting system using 8051 Microcontroller</h3>
+                            <p>
+                               Developed an energy-efficient street lighting system using an 8051 microcontroller and IR sensors. Street lights automatically switch on only when vehicle movement is detected, reducing unnecessary power consumption.
+                               <b>Available documentation :</b> Mini project report with all the technical information.
+                            </p>
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span>8051 Microcontroller</span>
+                                <span>Embedded C</span>
+                                <span>IR Sensors</span>
+                                <span>Relay Module</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://github.com/Preethisundar13/Realtime_Disaster_Monitoring_system" target="_blank" class="project-btn github-btn">
+                                    GitHub
+                                </a>
+                                <a href="Assets/Streetlighting system.pdf" target="_blank" class="project-btn demo-btn">
+                                    View Report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="project-card" data-aos="fade-up">                     
+                        <div class="project-content">
+                            <p class="project-category">Embedded Systems</p>
+                            <h3>Realtime Coalmine Monitoring system using Arduino UNO</h3>
+                            <p>
+                                Developed an Arduino-based safety monitoring system that detects temperature, gas leakage, and fire hazards inside underground coal mines. The system provides real-time alerts using sensors, an LCD display, and a buzzer to improve worker safety.
+                                <b>Available documentation :</b> Mini project report with all the technical information.
+                            </p>
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span>Arduino UNO</span>
+                                <span>Embedded C</span>
+                                <span>MQ-2</span>
+                                <span>LM35</span>
+                                <span>IR-Flame sensor</span>
+                                <span>LCD Display</span>
+                                <span>HC05 Bluetooth Module</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://github.com/Preethisundar13/Coalmine_Monitoring_System" target="_blank" class="project-btn github-btn">
+                                    GitHub
+                                </a>
+                                <a href="Assets/Coalmine monitoring system.pdf" target="_blank" class="project-btn demo-btn">
+                                    View Report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="skills" class="skills" data-aos="fade-up">
+                <div class="skills-container">
+                    <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i>
+                        Skills
+                    </h2>
+                    <p class="skills-subtitle">
+                        Technologies and tools I use to build AI applications,
+                        responsive websites, and embedded system projects.
+                    </p>
+                    <div class="skills-category">
+                        <h3>Programing Languages</h3>
+                        <div class="skills-list">
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                        <h3>AI & Machine learning</h3>
+                        <div class="skills-list">
+                            <span>Prompt Engineering</span>
+                            <span>Custom GPT</span>
+                            <span>Project GPT</span>
+                            <span>Google Gems</span>
+                            <span>YOLOv8</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <h3>Web Development</h3>
+                        <div class="skills-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Javascript</span>
+                            <span>React</span>
+                            <span>Next.js</span>
+                        </div>
+                        <h3>Tools and Platforms</h3>
+                        <div class="skills-list">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>MySql</span>
+                            <span>Arduino IDE</span>
+                        </div>
+                        <h3>Embedded Systems & IoT</h3>
+                        <div class="skills-list">
+                            <span>8051 Microcontroller</span>
+                            <span>Arduino programing</span>
+                            <span>Sensors</span>
+                            <span>IoT Basics</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="certificate" class="certificate" data-aos="fade-up">
+                <h2 class="section-title"><i class="fa-solid fa-certificate"></i>
+                    Certifications
+                </h2>
+                <p class="certificate-subtitle">
+                    Professional certifications and hands-on learning that strengthened my knowledge in Artificial Intelligence, Web Development, and Programming.
+                </p>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <div class="certificate-title">
+                                <i class="fa-solid fa-trophy trophy-icon"></i>
+                                <div>
+                                    <h3>Prompt Engineering - Hands-on</h3>
+                                    <p>Tayana Academy,India</p>
+                                </div>
+                            </div>
+                            <div class="certificate-tags">
+                                <span>AI</span>
+                            </div>
+                        </div>
+                        <a href="https://orion-api.tayanaacademy.com/api/certificates/f16267ee-bb69-4b53-9c51-a8d27afa5b18/preview-png" target="_blank" class="verify-btn">
+                            View Credential
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                           <div class="certificate-title">
+                                <i class="fa-solid fa-robot robot-icon"></i>
+                                <div>
+                                    <h3>Custom GPT - Hands-on</h3>
+                                    <p>Tayana Academy India</p>
+                                </div>
+                            </div>
+                            <div class="certificate-tags">
+                                <span>AI</span>
+                            </div>
+                        </div>
+                        <a href="https://orion-api.tayanaacademy.com/api/certificates/31c09e9d-c363-4c77-a204-a6051c516bb2/preview-png" target="_blank" class="verify-btn">
+                            View Credential
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <div class="certificate-title">
+                                <i class="fa-solid fa-gem gem-icon"></i>
+                                <div>
+                                    <h3>Google Gems - Hands-on</h3>
+                                    <p>Tayana Academy India</p>
+                                </div>
+                            </div>
+                            <div class="certificate-tags">
+                                <span>AI</span>
+                            </div>
+                        </div>
+                        <a href="https://orion-api.tayanaacademy.com/api/certificates/74ce58fa-d66a-49d5-920f-b471e0fb203d/preview-png" target="_blank" class="verify-btn">
+                            View Credential
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <div class="certificate-title">
+                                <i class="fa-brands fa-python python-icon"></i>
+                                <div>
+                                    <h3>Problem Solving using Python</h3>
+                                    <p>Chennai Institute of Technology</p>
+                                </div>
+                            </div>
+                            <div class="certificate-tags">
+                                <span>Programming</span>
+                            </div>
+                        </div>
+                        <a href="Images/Python.jpg" target="_blank" class="verify-btn">
+                            View Credential
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <div class="certificate-title">
+                                <i class="fa-solid fa-database database-icon"></i>
+                                <div>
+                                    <h3>Basics of Sql</h3>
+                                    <p>SkillRack</p>
+                                </div>
+                            </div>
+                            <div class="certificate-tags">
+                                <span>Database</span>
+                            </div>
+                        </div>
+                        <a href="Images/SQL-Skillrack.png" target="_blank" class="verify-btn">
+                            View Credential
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact" data-aos="fade-up">
+                <h2 class="section-title"><i class="fa-solid fa-envelope"></i>
+                    Contact Me
+                </h2>
+                <p class="contact-text">
+                    I'm currently seeking entry-level opportunities in AI, Web Development,
+                    and Software Development. Feel free to reach out if you'd like to
+                    collaborate, discuss opportunities, or simply connect.
+                </p>
+                <div class="contact-details">
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+91XXXXXXXXXX">
+                            +91 63826 40762
+                        </a>
+                    </p>
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:preethisundar2004@gmail.com">
+                            preethisundar2004@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/preethisundar13" target="_blank">
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Preethisundar13" target="_blank">
+                        GitHub
+                    </a>
+                    <a href="Assets/Resume.pdf" target="_blank">
+                        Resume
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+             <p>
+                <i class="fa-solid fa-laptop-code"></i>
+                © 2026 Preethi Sundar. All Rights Reserved.
+            </p>
+            <p class="footer-1">
+                Built with HTML and CSS
+            </p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({duration: 800,offset: 120});
+        </script>
+        <script>
+                const menuToggle = document.querySelector(".menu-toggle");
+                const navLinks = document.querySelector(".nav-links");
+                const menuIcon = document.querySelector(".menu-toggle i");
+                menuToggle.addEventListener("click",()=>{
+                navLinks.classList.toggle("active");
+                if(navLinks.classList.contains("active")){
+                menuIcon.classList.remove("fa-bars");
+                menuIcon.classList.add("fa-xmark");
+                }
+                else{
+                menuIcon.classList.remove("fa-xmark");
+                menuIcon.classList.add("fa-bars");
+                }
+                });
+        </script>
+    </body>
+</html>
