@@ -852,6 +852,24 @@ footer i{
     .contact-links{
         flex-direction:column;
         gap:15px;
+        align-items:center;
+    }
+    .contact-links a{
+        display:block;
+        width:100%;
+        max-width:280px;
+        padding:14px 20px;
+        text-align:center;
+        text-decoration:none;
+        border:2px solid var(--text);
+        border-radius:18px;
+        color:var(--text);
+        font-weight:600;
+        transition:var(--transition);
+    }
+    .contact-links a:hover{
+        background:var(--primary);
+        color:#fff;
     }
     .contact-links a{
         width:100%;
