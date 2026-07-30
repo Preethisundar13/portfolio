@@ -503,6 +503,16 @@ body{
     background: var(--primary);
     color:white;
 }
+.contact-links a i{
+    font-size:20px;
+    margin-right:10px;  
+    color:var(--primary);
+    transition:var(--transition);
+}
+.contact-links a:hover i{
+    color; var(--primary);
+    transform:scale(1.1);
+}
 
 /*----------------------------------------footer--------------------------------------*/
 
@@ -712,7 +722,16 @@ footer i{
     .contact-links a{
         flex:1 1 220px;
         text-align:center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        padding:14px 20px;
+        font-size:16px;
     }
+    .contact-links a i{
+        font-size:18px;
+}
     /*--------------------------Footer------------------------------*/
     footer{
         padding:18px;
@@ -875,7 +894,16 @@ footer i{
         width:100%;
         max-width:280px;
         margin:auto;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        padding:13px 18px;
+        font-size:15px;
     }
+.contact-links a i{
+    font-size:17px;
+}
     /*--------------------------Footer------------------------------*/
     footer{
         padding:16px;
