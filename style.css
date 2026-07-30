@@ -509,6 +509,12 @@ body{
     color:var(--primary);
     transition:var(--transition);
 }
+.linkedin-icon{
+    color: #3776AB;
+}
+.file-icon{
+    color: goldenrod
+}
 .contact-links a:hover i{
     color; var(--primary);
     transform:scale(1.1);
