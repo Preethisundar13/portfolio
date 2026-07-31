@@ -621,7 +621,7 @@ footer i{
         padding:70px 25px;
     }
     .about p{
-        font-size:17px;
+        font-size:15px;
         line-height:30px;
         text-align:justify;
     }
@@ -672,7 +672,7 @@ footer i{
         padding:70px 25px;
     }
     .skills-subtitle{
-        font-size:17px;
+        font-size:15px;
         line-height:30px;
     }
     .skills-category h3{
@@ -783,7 +783,7 @@ footer i{
         line-height:28px;
     }
     .section-title{
-        font-size:30px;
+        font-size:25px;
     }
     /*--------------------------Projects------------------------------*/
     .projects{
@@ -844,7 +844,7 @@ footer i{
         gap:12px;
     }
     .certificate-title i{
-        font-size:24px;
+        font-size:px;
     }
     .certificate-title h3{
         font-size:20px;
