@@ -516,7 +516,6 @@ body{
     color: goldenrod
 }
 .contact-links a:hover i{
-    color; var(--primary);
     transform:scale(1.1);
 }
 
