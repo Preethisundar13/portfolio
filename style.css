@@ -487,7 +487,7 @@ body{
 }
 .contact-links{
     display:flex;
-    gap:10px;
+    gap:20px;
     flex-wrap:wrap;
 }
 .contact-links a{
@@ -724,18 +724,18 @@ footer i{
         gap:15px;
     }
     .contact-links a{
-        flex:1 1 220px;
-        text-align:center;
         display:flex;
         align-items:center;
         justify-content:center;
         gap:10px;
+        width:220px;
         padding:14px 20px;
+        text-align:center;
         font-size:16px;
     }
     .contact-links a i{
         font-size:18px;
-}
+    }
     /*--------------------------Footer------------------------------*/
     footer{
         padding:18px;
@@ -877,32 +877,26 @@ footer i{
         gap:15px;
         align-items:center;
     }
-    .contact-links a{
-        display:block;
-        width:100%;
-        max-width:280px;
-        padding:14px 20px;
-        text-align:center;
-        text-decoration:none;
-        border:2px solid var(--text);
-        border-radius:18px;
-        color:var(--text);
-        font-weight:600;
-        transition:var(--transition);
-    }
     .contact-links a:hover{
         background:var(--primary);
         color:#fff;
     }
     .contact-links a{
-        max-width:280px;
-        margin:auto;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        gap:8px;
-        padding:13px 18px;
-        font-size:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    width:100%;
+    max-width:280px;
+    padding:13px 18px;
+    text-align:center;
+    text-decoration:none;
+    border:2px solid var(--text);
+    border-radius:18px;
+    color:var(--text);
+    font-weight:600;
+    font-size:15px;
+    transition:var(--transition);
     }
     .contact-links a i{
         font-size:17px;
