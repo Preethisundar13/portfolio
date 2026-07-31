@@ -895,7 +895,6 @@ footer i{
         color:#fff;
     }
     .contact-links a{
-        width:100%;
         max-width:280px;
         margin:auto;
         display:flex;
@@ -905,9 +904,9 @@ footer i{
         padding:13px 18px;
         font-size:15px;
     }
-.contact-links a i{
-    font-size:17px;
-}
+    .contact-links a i{
+        font-size:17px;
+    }
     /*--------------------------Footer------------------------------*/
     footer{
         padding:16px;
