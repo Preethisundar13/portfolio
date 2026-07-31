@@ -505,7 +505,9 @@ body{
 }
 .contact-links a i{
     font-size:20px;
-    margin-right:10px;  
+    display:flex;
+    align-items:center;
+    gap:10px;  
     transition:var(--transition);
 }
 .linkedin-icon{
