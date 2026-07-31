@@ -730,7 +730,7 @@ footer i{
         align-items:center;
         justify-content:center;
         gap:10px;
-        width:220px;
+        width: 200px;
         padding:10px 10px;
         text-align:center;
         font-size:16px;
@@ -884,20 +884,20 @@ footer i{
         color:#fff;
     }
     .contact-links a{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
-    width:280px;
-    padding:10px 10px;
-    text-align:center;
-    text-decoration:none;
-    border:2px solid var(--text);
-    border-radius:18px;
-    color:var(--text);
-    font-weight:600;
-    font-size:15px;
-    transition:var(--transition);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        width:150px;
+        padding:10px 10px;
+        text-align:center;
+        text-decoration:none;
+        border:2px solid var(--text);
+        border-radius:18px;
+        color:var(--text);
+        font-weight:600;
+        font-size:15px;
+        transition:var(--transition);
     }
     .contact-links a i{
         font-size:17px;
