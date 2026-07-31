@@ -717,6 +717,7 @@ footer i{
     .contact-text{
         font-size:17px;
         line-height:30px;
+        text-align: justify;
     }
     .contact-details p{
         font-size:18px;
@@ -870,6 +871,7 @@ footer i{
     .contact-text{
         font-size:16px;
         line-height:28px;
+        text-align: justify;
     }
     .contact-details p{
         font-size:16px;
