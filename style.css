@@ -506,7 +506,6 @@ body{
 .contact-links a i{
     font-size:20px;
     margin-right:10px;  
-    color:var(--primary);
     transition:var(--transition);
 }
 .linkedin-icon{
