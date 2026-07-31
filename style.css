@@ -622,8 +622,7 @@ footer i{
     }
     .about p{
         font-size:15px;
-        line-height:30px;
-        text-align:justify;
+        line-height:28px;
     }
     .section-title{
         font-size:34px;
@@ -653,8 +652,8 @@ footer i{
         line-height:30px;
     }
     .project-subtitle{
-        font-size:17px;
-        line-height:30px;
+        font-size:15px;
+        line-height:28px;
     }
     .tech-stack{
         gap:10px;
@@ -673,7 +672,7 @@ footer i{
     }
     .skills-subtitle{
         font-size:15px;
-        line-height:30px;
+        line-height:28px;
     }
     .skills-category h3{
         font-size:20px;
@@ -693,9 +692,8 @@ footer i{
         font-size: 20px;
     }
     .certificate-subtitle{
-        font-size: 17px;
-        line-height: 30px;
-        text-align: justify;
+        font-size: 15px;
+        line-height: 28px;
     }
     .certificate-item{
         flex-direction:column;
@@ -715,9 +713,8 @@ footer i{
         padding:70px 25px;
     }
     .contact-text{
-        font-size:17px;
-        line-height:30px;
-        text-align: justify;
+        font-size:15px;
+        line-height:28px;
     }
     .contact-details p{
         font-size:18px;
