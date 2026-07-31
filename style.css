@@ -873,7 +873,7 @@ footer i{
         font-size:16px;
     }
     .contact-links{
-        flex-direction:column;
+        display: flex;
         gap:15px;
         align-items:center;
     }
@@ -886,8 +886,7 @@ footer i{
     align-items:center;
     justify-content:center;
     gap:8px;
-    width:100%;
-    max-width:280px;
+    width:280px;
     padding:10px 10px;
     text-align:center;
     text-decoration:none;
