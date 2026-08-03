@@ -173,7 +173,7 @@ body{
     border: none;
     border-radius: 18px;
     padding: 15px 20px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     transition: var(--transition);
     box-shadow:var(--shadow-medium);
@@ -181,7 +181,7 @@ body{
 .btn-secondary{
     background-color:var(--surface);
     color: var(--text);
-    padding:15px 30px;
+    padding:15px 20px;
     border: var(--text);
     border-radius:18px;
     font-size:16px;
