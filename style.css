@@ -551,7 +551,7 @@ footer i{
 
 /*--------------------------------------responsiveness--------------------------------------*/
 
-@media (max-width:768px)
+@media (max-width:850px)
 {
     /*--------------------------Navigation Bar------------------------------*/
     .navbar{
@@ -749,7 +749,8 @@ footer i{
         line-height:28px;
     }
 }
-@media (max-width:480px)
+/*-----------------------------------------------Mobile------------------------------*/
+@media (max-width:500px)
 {
     /*--------------------------Hero------------------------------*/
     .hero{
@@ -845,7 +846,8 @@ footer i{
         gap:12px;
     }
     .certificate-title i{
-        font-size:px;
+        font-size:15px;
+        margin-top:2px;
     }
     .certificate-title h3{
         font-size:20px;
@@ -864,6 +866,21 @@ footer i{
         font-size: 16px;
         line-height: 28px;
         text-align: justify;
+    }
+    .verify-btn{
+        text-decoration:none;
+        border:2px solid var(--primary);
+        color:var(--primary);
+        padding:10px 10px;
+        border-radius:8px;
+        font-weight:400;
+        transition:.3s;
+        white-space:nowrap;
+    }
+    .verify-btn:hover{
+        background:var(--primary);
+        color:white;
+        transform:translateY(8px);
     }
     /*--------------------------Contact------------------------------*/
     .contact{
