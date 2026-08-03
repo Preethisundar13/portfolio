@@ -541,65 +541,54 @@ body {
     justify-content: center;
     background-color: white;
 }
-
 .contact-text {
     line-height: 1.8;
     color: var(--text-light);
     margin-bottom: 40px;
     max-width: 1000px;
 }
-
 .contact-details {
     margin-bottom: 35px;
 }
-
 .contact-details p {
     margin: 15px 0;
     font-size: 20px;
 }
-
 .contact-details a {
     text-decoration: none;
     color: var(--text);
 }
-
 .contact-links {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .contact-links a {
     text-decoration: none;
-    padding: 25px 28px;
+    padding: 28px 28px;
     border: 2px solid var(--text);
     color: var(--text);
     border-radius: 18px;
-    font-weight: 500;
+    font-weight: 400;
     transition: var(--transition);
 }
-
 .contact-links a:hover {
     background: var(--primary);
     color: white;
 }
-
 .contact-links a i {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 10px;
     transition: var(--transition);
 }
-
 .linkedin-icon {
     color: #3776AB;
 }
-
 .file-icon {
     color: goldenrod
 }
-
 .contact-links a:hover i {
     transform: scale(1.1);
 }
