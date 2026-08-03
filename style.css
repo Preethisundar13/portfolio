@@ -19,6 +19,13 @@
     --radius: 18px;
     --transition: .35s ease;
 }
+.btn-primary i,
+.btn-secondary i,
+.project-btn i,
+.verify-btn i,
+.contact-links a i{
+    margin-right:8px;
+}
 
 section {
     padding: 90px 8%;
@@ -586,9 +593,6 @@ body {
 }
 .linkedin-icon {
     color: #3776AB;
-}
-.file-icon {
-    color: goldenrod
 }
 .contact-links a:hover i {
     transform: scale(1.1);
