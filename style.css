@@ -571,6 +571,10 @@ body {
     border-radius: 18px;
     font-weight: 400;
     transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;s
 }
 .contact-links a:hover {
     background: var(--primary);
@@ -578,9 +582,6 @@ body {
 }
 .contact-links a i {
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
     transition: var(--transition);
 }
 .linkedin-icon {
