@@ -492,7 +492,7 @@ body{
 }
 .contact-links a{
     text-decoration:none;
-    padding:14px 28px;
+    padding:20px 28px;
     border:2px solid var(--text);
     color:var(--text);
     border-radius:18px;
